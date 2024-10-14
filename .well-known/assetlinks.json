@@ -1,0 +1,28 @@
+[
+   {
+      "relation":[
+         "delegate_permission/common.handle_all_urls",
+         "delegate_permission/common.get_login_creds"
+      ],
+      "target":{
+         "namespace":"android_app",
+         "package_name":"com.veera.browser_beta",
+         "sha256_cert_fingerprints":[
+            "98:6D:FF:FE:8A:AD:8A:A5:FC:59:76:3E:9C:D4:F8:EC:25:C8:C5:F9:64:D7:77:8D:0C:B0:BD:A5:C1:3A:C2:FD"
+         ]
+      }
+   },
+   {
+      "relation":[
+         "delegate_permission/common.handle_all_urls",
+         "delegate_permission/common.get_login_creds"
+      ],
+      "target":{
+         "namespace":"android_app",
+         "package_name":"com.veera.browser_default",
+         "sha256_cert_fingerprints":[
+            "1C:32:EA:FB:84:F8:EB:C3:C4:6C:FB:DC:8E:48:7E:52:B3:11:70:DA:72:A8:6A:74:67:3D:C1:AC:F9:ab:2B:DE"
+         ]
+      }
+   }
+]
